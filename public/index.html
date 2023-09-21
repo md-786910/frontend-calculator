@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Claculator</title>
+    <script
+      src="https://kit.fontawesome.com/1443690ef3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="flex center w-100">
+    <main class="flex min-h-screen m-auto">
+      <div class="w-100 min-w-400">
+        <h1>Claculator</h1>
+        <div class="preview">1+2</div>
+        <div class="grid w-100">
+          <button>Ac</button>
+          <button>C</button>
+          <button>%</button>
+          <button class="operators">/</button>
+
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="operators">+</button>
+
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="operators">-</button>
+
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="operators">*</button>
+
+          <button class="span-2">0</button>
+          <button>.</button>
+          <button class="operators">=</button>
+        </div>
+        <div>
+          <h3>Calculation Name</h3>
+          <div class="flex mt-5">
+            <input type="text" class="w-100" />
+            <button class="btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+      <div class="w-100">
+        <h1>Your Calculations</h1>
+        <table>
+          <!-- checkbox name calculation result  action -->
+          <thead>
+            <tr>
+              <th><input type="checkbox" /></th>
+              <th>Name</th>
+              <th>Calculation</th>
+              <th>Result</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>test</td>
+            <td>4+5</td>
+            <td>9</td>
+            <td>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-trash"></i>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
